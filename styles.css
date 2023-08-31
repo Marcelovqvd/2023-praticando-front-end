@@ -48,6 +48,7 @@ form input {
     border-radius: 8px;
     border: none;
     background: var(--Gray-500, #262626);
+    outline: 0;
 }
 
 form button {
@@ -116,6 +117,10 @@ main {
 .taskResult img {
     width: 56px;
     height: 56px;
+<<<<<<< HEAD
+=======
+    margin-bottom: 16px;
+>>>>>>> d45a0cb (initial screen)
 }
 
 .taskResult p {
