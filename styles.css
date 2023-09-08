@@ -49,6 +49,11 @@ form input {
   border: none;
   background: #262626;
   outline: 0;
+  color: #f2f2f2;
+}
+
+form input::placeholder {
+  color: #fff;
 }
 
 form button {
@@ -64,7 +69,6 @@ form button {
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
-  /* 19.6px */
 }
 
 .disabled {

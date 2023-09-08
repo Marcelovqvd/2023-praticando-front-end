@@ -1,10 +1,12 @@
-const button = document.querySelector('button')
-const buttonImg = document.querySelector('button img')
+const form = document
+  .querySelector("form")
+  .addEventListener("submit", handleSubmit);
 
-button.addEventListener('click', handleButton)
+const todo = document.querySelector("input");
 
-function handleButton(event) {
-    button.disabled = true
-    button.classList.add('disabled')
-    buttonImg.classList.add('onDisabled')
+const myButton = document.querySelector("button");
+
+function handleSubmit(params) {
+  params.preventDefault();
+  myButton.classList.add("disabled");
 }
